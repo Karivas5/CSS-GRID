@@ -1,0 +1,90 @@
+/*podemos seleccionar los estilos por medio de ETIQUETAS, por ejemplo: div
+Para cambiar estilos en una etiqueta solo debo de escribir su nombre*/
+
+div{
+color:black;
+}
+
+/*Podemos seleccionar los estilos por medio de CLASES
+Para cambiar estilos en una carpeta solo debo escribir un punto antes de su nombre, por ejemplo: .class*/
+    
+.container{
+    background-color:black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    gap: 5px;
+    padding: 10px;
+    border: 10px solid rgb(126, 77, 126);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+
+    width: 30%;
+
+    border: 10px solid black;
+}
+
+.container div{
+    border-radius: 15px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.container div img{
+    height: 70px;
+    width: 70px;
+}
+
+.item1{
+    background-color:rgb(238, 204, 238);
+    grid-column-start:1;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end:3;
+}
+
+.item2{
+    background-color:white;
+    grid-column-start:3;
+    grid-column-end:5;
+    grid-row-start:1;
+    grid-row-end:3;
+}
+
+.item3{
+    background-color:rgb(238, 204, 238);
+    grid-column-start:5;
+    grid-column-end:6;
+    grid-row-start:1;
+    grid-row-end:7;
+}
+
+.item4{
+    background-color:rgb(241, 208, 208);
+    grid-column-start:1;
+    grid-column-end:4;
+    grid-row-start:3;
+    grid-row-end:5;
+}
+
+.item5{
+    background-color:rgb(126, 77, 126);
+    grid-column-start:4;
+    grid-column-end:5;
+    grid-row-start:3;
+    grid-row-end:5;
+}
+
+.item6{
+    background-color: white;
+    grid-column-start:1;
+    grid-column-end:5;
+    grid-row-start:5;
+    grid-row-end:7;
+}
+
+.item7{
+    background-color: black;
+}
